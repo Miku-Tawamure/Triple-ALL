@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{SelectedItem:{components:{\"minecraft:item_name\":'\"戦の神杖\"'}}}"
+  }
+}

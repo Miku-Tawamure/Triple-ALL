@@ -1,0 +1,14 @@
+
+scoreboard players add @s Mk_NCA 1
+execute store result score @s Mk_Random run random value 0..9 cat
+
+execute if score @s Mk_Random matches 1 run execute positioned ~ ~1.5 ~ run summon item_display ^ ^4 ^-2 {item:{id:"minecraft:iron_sword",components:{"minecraft:custom_model_data":1}},item_display:"thirdperson_lefthand",teleport_duration:1,Tags:[Partisan,ACT,Small,CA,New]}
+execute if score @s Mk_Random matches 2 run execute positioned ~ ~1.5 ~ run summon item_display ^3 ^ ^-4 {item:{id:"minecraft:iron_sword",components:{"minecraft:custom_model_data":1}},item_display:"thirdperson_lefthand",teleport_duration:1,Tags:[Partisan,ACT,Small,CA,New]}
+execute if score @s Mk_Random matches 3 run execute positioned ~ ~1.5 ~ run summon item_display ^-3 ^ ^-2 {item:{id:"minecraft:iron_sword",components:{"minecraft:custom_model_data":1}},item_display:"thirdperson_lefthand",teleport_duration:1,Tags:[Partisan,ACT,Small,CA,New]}
+execute if score @s Mk_Random matches 4 run execute positioned ~ ~1.5 ~ run summon item_display ^2 ^2 ^-5 {item:{id:"minecraft:iron_sword",components:{"minecraft:custom_model_data":1}},item_display:"thirdperson_lefthand",teleport_duration:1,Tags:[Partisan,ACT,Small,CA,New]}
+execute if score @s Mk_Random matches 5 run execute positioned ~ ~1.5 ~ run summon item_display ^1 ^3 ^-1 {item:{id:"minecraft:iron_sword",components:{"minecraft:custom_model_data":1}},item_display:"thirdperson_lefthand",teleport_duration:1,Tags:[Partisan,ACT,Small,CA,New]}
+execute if score @s Mk_Random matches 6 run execute positioned ~ ~1.5 ~ run summon item_display ^-5 ^ ^-3 {item:{id:"minecraft:iron_sword",components:{"minecraft:custom_model_data":1}},item_display:"thirdperson_lefthand",teleport_duration:1,Tags:[Partisan,ACT,Small,CA,New]}
+execute if score @s Mk_Random matches 7 run execute positioned ~ ~1.5 ~ run summon item_display ^-5 ^2 ^-2 {item:{id:"minecraft:iron_sword",components:{"minecraft:custom_model_data":1}},item_display:"thirdperson_lefthand",teleport_duration:1,Tags:[Partisan,ACT,Small,CA,New]}
+execute if score @s Mk_Random matches 8 run execute positioned ~ ~1.5 ~ run summon item_display ^4 ^0.5 ^-1 {item:{id:"minecraft:iron_sword",components:{"minecraft:custom_model_data":1}},item_display:"thirdperson_lefthand",teleport_duration:1,Tags:[Partisan,ACT,Small,CA,New]}
+execute if score @s Mk_Random matches 9 run execute positioned ~ ~1.5 ~ run summon item_display ^2 ^-0.5 ^-2 {item:{id:"minecraft:iron_sword",components:{"minecraft:custom_model_data":1}},item_display:"thirdperson_lefthand",teleport_duration:1,Tags:[Partisan,ACT,Small,CA,New]}
+execute if score @s Mk_Random matches 0 run execute positioned ~ ~1.5 ~ run summon item_display ^-1 ^-0.5 ^-3 {item:{id:"minecraft:iron_sword",components:{"minecraft:custom_model_data":1}},item_display:"thirdperson_lefthand",teleport_duration:1,Tags:[Partisan,ACT,Small,CA,New]}
